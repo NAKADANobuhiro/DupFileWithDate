@@ -15,6 +15,6 @@ Windows のエクスプローラーでファイルを選択して、右クリッ
 
 インストール先を変更したい場合は、DupFileWithDate.reg の 7 行目を修正してください。
 
-```REG
+```Windows Registry Entries:DupFileWithDate.reg 
 @="wscript.exe \"C:\\Dev\\DupFileWithDate\\DupFileWithDate.vbs\" \"%1\""
 ```
